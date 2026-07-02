@@ -1,10 +1,12 @@
 # ⚙️ SMART-PDM — AI Predictive Maintenance for Home Appliances
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://appliance-predictive-maintenance-hwlslsqpu4ethyjssfzqgk.streamlit.app/)
+
 An interactive machine-learning dashboard that detects faults and anomalies in
 **household appliances** from their electrical and vibration signals — built on the
 EU **SMART-PDM** research dataset.
 
-> **🔗 Live demo:** _add your Streamlit Cloud URL here after deploying_
+> **🔗 Live demo:** **https://appliance-predictive-maintenance-hwlslsqpu4ethyjssfzqgk.streamlit.app/**
 > (free app — it may take ~30 s to wake on the first visit)
 
 Built by an engineer with a **mechanical / industrial-engineering** background to show
