@@ -9,9 +9,19 @@ EU **SMART-PDM** research dataset.
 > **🔗 Live demo:** **https://appliance-predictive-maintenance-hwlslsqpu4ethyjssfzqgk.streamlit.app/**
 > (free app — it may take ~30 s to wake on the first visit)
 
-Built by an engineer with a **mechanical / industrial-engineering** background to show
+Built by **Chamma Avrelus**, a **Mechanical & Industrial Engineer**, to show
 predictive-maintenance ideas end-to-end: from raw machine signals to a deployable,
 explainable decision tool.
+
+---
+
+## Preview
+
+![Overview](assets/overview.png)
+
+| Windowed model — leakage-aware evaluation | Refrigerator anomaly detection |
+|---|---|
+| ![Windowed model](assets/windowed_model.png) | ![Fridge anomaly detection](assets/fridge_anomaly.png) |
 
 ---
 
