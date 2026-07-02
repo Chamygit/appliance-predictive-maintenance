@@ -1,0 +1,11 @@
+# Full dependencies for the OFFLINE data pipeline (run locally, not on the server):
+#   extract_features.py, window_features.py, classifier.py, pca.py
+# The deployed app itself only needs the packages in the repo-root requirements.txt.
+streamlit>=1.35.0
+pandas>=2.0.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+plotly>=5.20.0
+tsfresh>=0.20.0
+matplotlib>=3.8.0
+seaborn>=0.13.0

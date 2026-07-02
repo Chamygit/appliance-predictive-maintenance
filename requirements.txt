@@ -1,0 +1,9 @@
+# Runtime dependencies for the deployed Streamlit app (1-code/app.py).
+# Kept intentionally small so Streamlit Community Cloud builds fast and reliably.
+# The offline feature-extraction pipeline needs extra packages — see
+# 1-code/requirements-dev.txt.
+streamlit>=1.35.0
+pandas>=2.0.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+plotly>=5.20.0

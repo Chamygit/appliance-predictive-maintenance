@@ -1,0 +1,29 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# SMART-PDM — keep the repo small. The full raw dataset is ~26 GB and must NOT be
+# committed. Only the small precomputed feature/metadata CSVs (at the dataset
+# roots) plus a hand-picked demo subset of cycles are tracked.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Ignore every per-cycle raw-signal folder; the CSVs sitting directly in the
+# dataset roots (metadata + extracted features) stay tracked.
+2-washing_machines/*/
+3-fridges/*/
+
+# The high-frequency files are huge (up to ~300 MB each) — never commit them,
+# even inside a demo cycle folder that we force-add.
+**/fast.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Tooling / editor / OS
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
